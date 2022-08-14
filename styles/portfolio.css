@@ -75,26 +75,7 @@ a {
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width: 960px) {
-  h1 {
-    font-size: 44px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .hero {
-    padding: 80px 20px;
-  }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  .about-section {
-    text-align: center;
-    padding: 0;
-  }
-}
+
 .my-photo {
   width: 560px;
 
@@ -122,8 +103,127 @@ a {
   opacity: 70%;
 }
 .about-section {
-  padding: 160px 20px;
+  padding: 60px 0;
 }
 .about-section-content {
   margin: 30px;
+}
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: black;
+}
+.content p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--text-color);
+  opacity: 70%;
+  margin-left: 0;
+  padding-left: 0;
+}
+.content img {
+  border-radius: 20px;
+}
+.heading {
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  padding: 60px 471px 70px 80px;
+}
+.contact {
+  font-family: var(--heading-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+  padding: 60px 0 20px 0;
+  text-align: center;
+}
+.active {
+  color: var(--secondary-color) !important;
+}
+.nav-item {
+  padding: 0 30px;
+  line-height: 18.75px;
+}
+footer .email-link {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
+footer .contact-box {
+  background-color: var(--branding-color);
+  border-radius: 20px;
+}
+footer .contact-box h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  padding: 30px 0 0 120px;
+}
+footer .contact-box p {
+  font-family: (--default-font-family);
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--text-color);
+  padding: 0 0 30px 120px;
+  margin: 0;
+}
+footer .contact-box a {
+  margin: 50px 120px 30px 0;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .heading {
+    font-family: var(--heading-font-family);
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5;
+  }
 }
