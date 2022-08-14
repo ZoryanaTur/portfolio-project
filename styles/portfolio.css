@@ -178,6 +178,7 @@ footer .social-links a:hover {
 footer .contact-box {
   background-color: var(--branding-color);
   border-radius: 20px;
+  margin: 0 130px 0 70px;
 }
 footer .contact-box h3 {
   font-family: var(--heading-font-family);
@@ -198,6 +199,11 @@ footer .contact-box p {
 }
 footer .contact-box a {
   margin: 50px 120px 30px 0;
+}
+
+.description p a {
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 960px) {
