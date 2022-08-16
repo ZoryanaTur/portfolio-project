@@ -205,7 +205,10 @@ footer .contact-box a {
   text-decoration: none;
   color: black;
 }
-
+.logo {
+  max-width: 150px;
+  max-height: 42px;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -217,6 +220,12 @@ footer .contact-box a {
   .hero {
     padding: 80px 20px;
   }
+  .hero h1 {
+    font-size: 44px;
+  }
+  .hero h2 {
+    margin-top: 0;
+  }
   .project-description {
     padding: 0;
     text-align: center;
@@ -225,11 +234,19 @@ footer .contact-box a {
     text-align: center;
     padding: 0;
   }
+  .about-section-content h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
   .heading {
     font-family: var(--heading-font-family);
     padding: 0;
     text-align: center;
     font-size: 35px;
     line-height: 1.5;
+  }
+  .contact {
+    font-size: 44px;
+    padding-top: 25px;
   }
 }
