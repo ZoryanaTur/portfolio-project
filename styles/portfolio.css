@@ -103,7 +103,7 @@ a {
   opacity: 70%;
 }
 .about-section {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 .about-section-content {
   margin: 30px;
@@ -208,6 +208,12 @@ footer .contact-box a {
 .logo {
   max-width: 150px;
   max-height: 42px;
+}
+.coming-soon {
+  margin-top: 150px;
+  font-family: var(--default-font-family);
+  color: var(--secondary-color);
+  text-align: center;
 }
 @media (max-width: 960px) {
   h1 {
