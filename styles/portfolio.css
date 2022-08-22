@@ -215,6 +215,9 @@ footer .contact-box a {
   color: var(--secondary-color);
   text-align: center;
 }
+.weather-app-workpage {
+  color: black;
+}
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
